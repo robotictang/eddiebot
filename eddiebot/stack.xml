@@ -1,9 +1,9 @@
 <stack>
   <description brief="eddiebot">The eddiebot stack provides all the basic drivers for running and using a EddieBot. </description>
-  <author>Maintained by Tully Foote, Michael Ferguson, and Melonee Wise</author>
-  <license>BSD,MIT</license>  
+  <author>Tang Tiong Yew</author>
+  <license>BSD</license>  
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/turtlebot</url>
+  <url>http://ros.org/wiki/eddiebot</url>
   <depend stack="common_msgs" /> <!-- nav_msgs, geometry_msgs, sensor_msgs, diagnostic_msgs -->
   <depend stack="driver_common" /> <!-- dynamic_reconfigure -->
   <depend stack="geometry" /> <!-- tf -->

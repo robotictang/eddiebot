@@ -2,7 +2,7 @@
 \mainpage
 \htmlinclude manifest.html
 
-\b pointcloud_to_laserscan is ... 
+\b pointcloud_to_laserscan is to provide fake lazer scanning for eddiebot.
 
 <!-- 
 Provide an overview of your package.

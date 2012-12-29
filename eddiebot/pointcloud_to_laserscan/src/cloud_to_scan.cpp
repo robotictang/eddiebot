@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2010, Willow Garage, Inc.
+ * Copyright (c) 2012, Tang Tiong Yew
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without

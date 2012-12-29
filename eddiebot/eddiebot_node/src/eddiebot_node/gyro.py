@@ -1,6 +1,6 @@
 # Software License Agreement (BSD License)
 #
-# Copyright (c) 2011, Willow Garage, Inc.
+# Copyright (c) 2012, Tang Tiong Yew
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -30,7 +30,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-#Melonee Wise mwise@willowgarage.com
+#Tang Tiong Yew <tang.tiong.yew@gmail.com>
 
 import rospy
 import math

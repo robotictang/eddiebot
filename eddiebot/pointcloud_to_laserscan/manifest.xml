@@ -4,10 +4,10 @@
      Converts a 3D Point Cloud into a 2D laser scan.  This is useful for making devices like the Kinect appear like a laser scanner for 2D-based algorithms (e.g. laser-based SLAM).
 
   </description>
-  <author>Tully Foote</author>
+  <author>Tang Tiong Yew</author>
   <license>BSD</license>
   <review status="unreviewed" notes=""/>
-  <url>http://ros.org/wiki/pointcloud_to_laserscan</url>
+  <url>http://ros.org/wiki/eddiebot_pointcloud_to_laserscan</url>
   <depend package="nodelet"/>
   <depend package="sensor_msgs"/>
   <depend package="pcl_ros"/>

@@ -2,7 +2,7 @@
 
 # Software License Agreement (BSD License)
 #
-# Copyright (c) 2011, Willow Garage, Inc.
+# Copyright (c) 2012, Tang Tiong Yew
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -32,7 +32,7 @@
 # ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
-##\author Kevin Watts
+##\author Tang Tiong Yew
 ##\brief Monitors laptop battery status
 
 from __future__ import division

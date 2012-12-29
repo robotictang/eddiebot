@@ -1,0 +1,19 @@
+#!/bin/bash
+
+log_file=/tmp/eddiebot-upstart.log
+DATE=`date`
+echo "$DATE: eddiebot-stop" >> $log_file
+
+if [ -s /etc/ros/setup.bash ]; then
+    echo "$DATE: eddiebot-stop using setup file /etc/ros/setup.bash" >> $log_file
+    source /etc/ros/setup.bash
+else
+    echo "$DATE: eddiebot-stop using setup file /opt/ros/fuerte/setup.bash" >> $log_file
+    source /opt/ros/fuerte/setup.bash
+fi
+
+for i in $( rosnode list ); do
+    rosnode kill $i;
+done
+
+killall roslaunch

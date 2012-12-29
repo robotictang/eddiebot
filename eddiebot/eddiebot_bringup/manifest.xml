@@ -1,0 +1,25 @@
+<package>
+  <description brief="eddiebot_bringup">
+
+     eddiebot_bringup provides roslaunch scripts for starting the EddieBot base functionality. 
+
+  </description>
+  <author>Tang Tiong Yew</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/turtlebot_bringup</url>
+  <depend package="app_manager"/>
+  <depend package="eddiebot_driver"/>
+  <depend package="eddiebot_node"/>
+  <depend package="eddiebot_description"/>
+  <depend package="joy"/>
+  <depend package="robot_state_publisher"/>
+  <depend package="pointcloud_to_laserscan"/>
+  <depend package="openni_camera"/>
+
+  <!-- for video teleoperation -->
+  <depend package="compressed_image_transport"/>
+  
+</package>
+
+

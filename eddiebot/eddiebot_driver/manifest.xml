@@ -1,0 +1,19 @@
+<package>
+  <description brief="Driver for Parallax Eddielebot">
+
+     For ROS bindings, please see eddiebot_node. 
+
+     This is a generic driver for Parallax Eddiebot.
+
+  </description>
+  <author>Tang Tiong Yew</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/eddiebot_driver</url>
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+
+</package>
+
+

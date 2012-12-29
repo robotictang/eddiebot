@@ -1,0 +1,24 @@
+<package>
+  <description brief="Parallax Eddiebot ROS driver node">
+
+     ROS bindings for the Eddiebot driver.
+     
+  </description>
+  <author>Tang Tiong Yew</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/eddiebot_node</url>
+  <depend package="eddiebot_driver"/>
+  <depend package="rospy"/>
+  <depend package="tf"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="diagnostic_msgs"/>
+  <depend package="kdl"/>
+  <depend package="dynamic_reconfigure"/>
+  <export>
+    <rosdoc config="rosdoc.yaml" />
+  </export>
+  <rosdep name="daemontools"/>
+
+</package>

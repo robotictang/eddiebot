@@ -1,0 +1,10 @@
+description	"bringup eddiebot"
+
+start on net-device-up IFACE=wlan0
+stop on net-device-down IFACE=wlan0
+
+console output
+respawn
+
+exec eddiebot-start
+pre-stop exec eddiebot-stop

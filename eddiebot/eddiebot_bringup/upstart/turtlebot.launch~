@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- sample file, copy this to /etc/ros/fuerte/eddiebot.launch -->
+
+  <param name="eddiebot_node/gyro_scale_correction" value="1.0"/>
+  <param name="eddiebot_node/odom_angular_scale_correction" value="1.0"/>
+
+  <include file="$(find eddiebot_bringup)/minimal.launch">
+    <arg name="urdf_file" value="$(find xacro)/xacro.py '$(find eddiebot_description)/robots/eddiebot.urdf.xacro'" />
+  </include>
+
+</launch>

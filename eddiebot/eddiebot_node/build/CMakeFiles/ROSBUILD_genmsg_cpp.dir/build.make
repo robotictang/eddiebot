@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build
 
 # Utility rule file for ROSBUILD_genmsg_cpp.
 
@@ -55,7 +55,7 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -79,15 +79,15 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/EddieSensorState.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/EddieSensorState.msg
 
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: ../msg/Drive.msg
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/Drive.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/Drive.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -111,16 +111,16 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/Drive.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/Drive.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/Drive.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/Drive.msg
 
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: ../msg/LaptopChargeStatus.msg
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -144,16 +144,16 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/LaptopChargeStatus.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/LaptopChargeStatus.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/LaptopChargeStatus.msg
 
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: ../msg/BatteryState.msg
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -177,15 +177,15 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/BatteryState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/BatteryState.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/BatteryState.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/BatteryState.msg
 
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: ../msg/Eddie.msg
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/Eddie.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/Eddie.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -209,16 +209,16 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/Eddie.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/Eddie.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/Eddie.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/Eddie.msg
 
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: ../msg/EddiebotSensorState.msg
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -242,16 +242,16 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/EddiebotSensorState.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/EddiebotSensorState.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/EddiebotSensorState.msg
 
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: ../msg/RawEddiebotSensorState.msg
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: ../manifest.xml
-../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -275,9 +275,9 @@ CMakeFiles/ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/RawEddiebot
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/cpp/include/eddiebot_node/RawEddiebotSensorState.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/RawEddiebotSensorState.msg
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/RawEddiebotSensorState.msg
 
 ROSBUILD_genmsg_cpp: CMakeFiles/ROSBUILD_genmsg_cpp
 ROSBUILD_genmsg_cpp: ../msg_gen/cpp/include/eddiebot_node/EddieSensorState.h
@@ -299,6 +299,6 @@ CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_cpp.dir/depend
 

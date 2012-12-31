@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build
 
 # Utility rule file for rospack_genmsg.
 
@@ -57,6 +57,6 @@ CMakeFiles/rospack_genmsg.dir/clean:
 .PHONY : CMakeFiles/rospack_genmsg.dir/clean
 
 CMakeFiles/rospack_genmsg.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build/CMakeFiles/rospack_genmsg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build/CMakeFiles/rospack_genmsg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rospack_genmsg.dir/depend
 

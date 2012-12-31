@@ -10,7 +10,7 @@
 /***********************************************************
  * Software License Agreement (BSD License)
  *
- *  Copyright (c) 2012, Tang Tiong Yew
+ *  Copyright (c) 2008, Willow Garage, Inc.
  *  All rights reserved.
  *
  *  Redistribution and use in source and binary forms, with or without
@@ -41,7 +41,7 @@
  *  POSSIBILITY OF SUCH DAMAGE.
  ***********************************************************/
 
-// Author: Tang Tiong Yew
+// Author: Blaise Gassend
 
 
 #ifndef __pointcloud_to_laserscan__CLOUDSCANCONFIG_H__

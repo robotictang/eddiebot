@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cloud_to_scan.dir/depend.make
@@ -81,17 +81,17 @@ CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o: /opt/ros/fuerte/stacks/dynamic
 CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
 CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o -c /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/src/cloud_to_scan.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o -c /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src/cloud_to_scan.cpp
 
 CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/src/cloud_to_scan.cpp > CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src/cloud_to_scan.cpp > CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.i
 
 CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/src/cloud_to_scan.cpp -o CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src/cloud_to_scan.cpp -o CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.s
 
 CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o.requires:
 .PHONY : CMakeFiles/cloud_to_scan.dir/src/cloud_to_scan.o.requires
@@ -137,17 +137,17 @@ CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o: /opt/ros/fuerte/stacks/dynami
 CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
 CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o: /opt/ros/fuerte/stacks/geometry/tf/msg_gen/generated
 CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o -c /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/src/cloud_throttle.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o -c /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src/cloud_throttle.cpp
 
 CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/src/cloud_throttle.cpp > CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src/cloud_throttle.cpp > CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.i
 
 CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/src/cloud_throttle.cpp -o CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -DBT_USE_DOUBLE_PRECISION -DBT_EULER_DEFAULT_ZYX -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src/cloud_throttle.cpp -o CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.s
 
 CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o.requires:
 .PHONY : CMakeFiles/cloud_to_scan.dir/src/cloud_throttle.o.requires
@@ -186,6 +186,6 @@ CMakeFiles/cloud_to_scan.dir/clean:
 .PHONY : CMakeFiles/cloud_to_scan.dir/clean
 
 CMakeFiles/cloud_to_scan.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/pointcloud_to_laserscan/build/CMakeFiles/cloud_to_scan.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build /home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/build/CMakeFiles/cloud_to_scan.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cloud_to_scan.dir/depend
 

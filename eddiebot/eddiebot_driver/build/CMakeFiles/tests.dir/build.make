@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/build
 
 # Utility rule file for tests.
 
@@ -57,6 +57,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/build/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

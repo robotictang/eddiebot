@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build
 
 # Utility rule file for test-results-run.
 
@@ -57,6 +57,6 @@ CMakeFiles/test-results-run.dir/clean:
 .PHONY : CMakeFiles/test-results-run.dir/clean
 
 CMakeFiles/test-results-run.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles/test-results-run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles/test-results-run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test-results-run.dir/depend
 

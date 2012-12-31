@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build
 
 # Utility rule file for ROSBUILD_gencfg_cpp.
 
@@ -49,7 +49,7 @@ CMakeFiles/ROSBUILD_gencfg_cpp: ../src/eddiebot_node/cfg/EddieBotConfig.py
 
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: ../cfg/EddieBot.cfg
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: ../manifest.xml
-../cfg/cpp/eddiebot_node/EddieBotConfig.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../cfg/cpp/eddiebot_node/EddieBotConfig.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -253,7 +253,7 @@ CMakeFiles/ROSBUILD_gencfg_cpp: ../src/eddiebot_node/cfg/EddieBotConfig.py
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: /usr/lib/python2.7/xmlrpclib.py
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: /opt/ros/fuerte/lib/python2.7/dist-packages/genpy/generator.py
 ../cfg/cpp/eddiebot_node/EddieBotConfig.h: /opt/ros/fuerte/lib/python2.7/dist-packages/rosbag/__init__.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../cfg/cpp/eddiebot_node/EddieBotConfig.h, ../docs/EddieBotConfig.dox, ../docs/EddieBotConfig-usage.dox, ../src/eddiebot_node/cfg/EddieBotConfig.py, ../docs/EddieBotConfig.wikidoc"
 	../cfg/EddieBot.cfg
 
@@ -283,6 +283,6 @@ CMakeFiles/ROSBUILD_gencfg_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gencfg_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_gencfg_cpp.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_gencfg_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_gencfg_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gencfg_cpp.dir/depend
 

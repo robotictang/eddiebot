@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build
 
 # Utility rule file for ROSBUILD_genmsg_lisp.
 
@@ -69,7 +69,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/lisp/EddieSensorState.lisp: ../manifest.xml
-../msg_gen/lisp/EddieSensorState.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/EddieSensorState.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -93,9 +93,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/EddieSensorState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/EddieSensorState.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_EddieSensorState.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/EddieSensorState.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/EddieSensorState.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/EddieSensorState.lisp
 
@@ -105,7 +105,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/Drive.lisp: ../manifest.xml
-../msg_gen/lisp/Drive.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/Drive.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -129,9 +129,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/Drive.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/Drive.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Drive.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/Drive.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/Drive.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/Drive.lisp
 
@@ -142,7 +142,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/lisp/LaptopChargeStatus.lisp: ../manifest.xml
-../msg_gen/lisp/LaptopChargeStatus.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/LaptopChargeStatus.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -166,9 +166,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/LaptopChargeStatus.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/LaptopChargeStatus.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_LaptopChargeStatus.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/LaptopChargeStatus.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/LaptopChargeStatus.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/LaptopChargeStatus.lisp
 
@@ -179,7 +179,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/lisp/BatteryState.lisp: ../manifest.xml
-../msg_gen/lisp/BatteryState.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/BatteryState.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -203,9 +203,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/BatteryState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/BatteryState.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_BatteryState.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/BatteryState.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/BatteryState.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/BatteryState.lisp
 
@@ -215,7 +215,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/Eddie.lisp: ../manifest.xml
-../msg_gen/lisp/Eddie.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/Eddie.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -239,9 +239,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/Eddie.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/Eddie.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_Eddie.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/Eddie.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/Eddie.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/Eddie.lisp
 
@@ -252,7 +252,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/lisp/EddiebotSensorState.lisp: ../manifest.xml
-../msg_gen/lisp/EddiebotSensorState.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/EddiebotSensorState.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -276,9 +276,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/EddiebotSensorState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/EddiebotSensorState.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_EddiebotSensorState.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/EddiebotSensorState.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/EddiebotSensorState.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/EddiebotSensorState.lisp
 
@@ -289,7 +289,7 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/share/std_msgs/msg/Header.msg
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: ../manifest.xml
-../msg_gen/lisp/RawEddiebotSensorState.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../msg_gen/lisp/RawEddiebotSensorState.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -313,9 +313,9 @@ CMakeFiles/ROSBUILD_genmsg_lisp: ../msg_gen/lisp/_package_RawEddiebotSensorState
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../msg_gen/lisp/RawEddiebotSensorState.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../msg_gen/lisp/RawEddiebotSensorState.lisp, ../msg_gen/lisp/_package.lisp, ../msg_gen/lisp/_package_RawEddiebotSensorState.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg/RawEddiebotSensorState.msg
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg/RawEddiebotSensorState.msg
 
 ../msg_gen/lisp/_package.lisp: ../msg_gen/lisp/RawEddiebotSensorState.lisp
 
@@ -355,6 +355,6 @@ CMakeFiles/ROSBUILD_genmsg_lisp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_genmsg_lisp.dir/clean
 
 CMakeFiles/ROSBUILD_genmsg_lisp.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_genmsg_lisp.dir/depend
 

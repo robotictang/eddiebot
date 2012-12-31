@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build
 
 # Utility rule file for ROSBUILD_gensrv_lisp.
 
@@ -53,7 +53,7 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SetDigitalOutputs.lisp
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../srv_gen/lisp/SetEddiebotMode.lisp: ../manifest.xml
-../srv_gen/lisp/SetEddiebotMode.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../srv_gen/lisp/SetEddiebotMode.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -77,9 +77,9 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SetDigitalOutputs.lisp
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../srv_gen/lisp/SetEddiebotMode.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/lisp/SetEddiebotMode.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SetEddiebotMode.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/srv/SetEddiebotMode.srv
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/srv/SetEddiebotMode.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/SetEddiebotMode.lisp
 
@@ -89,7 +89,7 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SetDigitalOutputs.lisp
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../srv_gen/lisp/SetDigitalOutputs.lisp: ../manifest.xml
-../srv_gen/lisp/SetDigitalOutputs.lisp: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../srv_gen/lisp/SetDigitalOutputs.lisp: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/share/roslang/manifest.xml
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/share/rospy/manifest.xml
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -113,9 +113,9 @@ CMakeFiles/ROSBUILD_gensrv_lisp: ../srv_gen/lisp/_package_SetDigitalOutputs.lisp
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../srv_gen/lisp/SetDigitalOutputs.lisp: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/lisp/SetDigitalOutputs.lisp, ../srv_gen/lisp/_package.lisp, ../srv_gen/lisp/_package_SetDigitalOutputs.lisp"
-	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/srv/SetDigitalOutputs.srv
+	/opt/ros/fuerte/share/roslisp/rosbuild/scripts/genmsg_lisp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/srv/SetDigitalOutputs.srv
 
 ../srv_gen/lisp/_package.lisp: ../srv_gen/lisp/SetDigitalOutputs.lisp
 
@@ -140,6 +140,6 @@ CMakeFiles/ROSBUILD_gensrv_lisp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_lisp.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_lisp.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_lisp.dir/depend
 

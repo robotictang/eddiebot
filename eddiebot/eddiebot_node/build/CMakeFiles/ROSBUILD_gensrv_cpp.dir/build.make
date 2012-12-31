@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node
+CMAKE_SOURCE_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build
+CMAKE_BINARY_DIR = /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build
 
 # Utility rule file for ROSBUILD_gensrv_cpp.
 
@@ -50,7 +50,7 @@ CMakeFiles/ROSBUILD_gensrv_cpp: ../srv_gen/cpp/include/eddiebot_node/SetDigitalO
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: ../manifest.xml
-../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -74,16 +74,16 @@ CMakeFiles/ROSBUILD_gensrv_cpp: ../srv_gen/cpp/include/eddiebot_node/SetDigitalO
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/gensrv_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/srv/SetEddiebotMode.srv
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/gensrv_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/srv/SetEddiebotMode.srv
 
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: ../srv/SetDigitalOutputs.srv
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/gensrv_cpp.py
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/share/roscpp/rosbuild/scripts/genmsg_cpp.py
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/share/roslib/bin/gendeps
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: ../manifest.xml
-../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_driver/manifest.xml
+../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/manifest.xml
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/share/roslang/manifest.xml
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/share/rospy/manifest.xml
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/stacks/bullet/manifest.xml
@@ -107,9 +107,9 @@ CMakeFiles/ROSBUILD_gensrv_cpp: ../srv_gen/cpp/include/eddiebot_node/SetDigitalO
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/stacks/geometry/tf/srv_gen/generated
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/generated
 ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h: /opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/generated
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ../srv_gen/cpp/include/eddiebot_node/SetDigitalOutputs.h"
-	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/gensrv_cpp.py /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/srv/SetDigitalOutputs.srv
+	/opt/ros/fuerte/share/roscpp/rosbuild/scripts/gensrv_cpp.py /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/srv/SetDigitalOutputs.srv
 
 ROSBUILD_gensrv_cpp: CMakeFiles/ROSBUILD_gensrv_cpp
 ROSBUILD_gensrv_cpp: ../srv_gen/cpp/include/eddiebot_node/SetEddiebotMode.h
@@ -126,6 +126,6 @@ CMakeFiles/ROSBUILD_gensrv_cpp.dir/clean:
 .PHONY : CMakeFiles/ROSBUILD_gensrv_cpp.dir/clean
 
 CMakeFiles/ROSBUILD_gensrv_cpp.dir/depend:
-	cd /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build /home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build /home/paralax2/github/eddiebot/eddiebot/eddiebot_node/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ROSBUILD_gensrv_cpp.dir/depend
 

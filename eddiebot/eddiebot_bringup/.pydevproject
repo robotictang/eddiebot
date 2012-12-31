@@ -1,8 +1,84 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?eclipse-pydev version="1.0"?><pydev_project>
+<?eclipse-pydev version="1.0"?>
+
+<pydev_project>
 <pydev_property name="org.python.pydev.PYTHON_PROJECT_INTERPRETER">Default</pydev_property>
-<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.7</pydev_property>
-<pydev_pathproperty name="org.python.pydev.PROJECT_SOURCE_PATH">
-<path>/eddiebot_bringup</path>
+<pydev_property name="org.python.pydev.PYTHON_PROJECT_VERSION">python 2.6</pydev_property>
+<pydev_pathproperty name="org.python.pydev.PROJECT_EXTERNAL_SOURCE_PATH">
+<path>/opt/ros/fuerte/stacks/robot_model/urdf/src</path>
+<path>/opt/ros/fuerte/stacks/robot_model/urdf/lib</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet_topic_tools/src</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet_topic_tools/lib</path>
+<path>/opt/ros/fuerte/stacks/diagnostics/diagnostic_updater/src</path>
+<path>/opt/ros/fuerte/stacks/diagnostics/diagnostic_updater/lib</path>
+<path>/home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/src</path>
+<path>/home/paralax2/github/eddiebot/eddiebot/pointcloud_to_laserscan/lib</path>
+<path>/home/paralax2/fuerte_workspace/sandbox/multimaster_experimental/app_manager/src</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/src</path>
+<path>/opt/ros/fuerte/stacks/perception_pcl/pcl_ros/lib</path>
+<path>/home/paralax2/github/eddiebot/eddiebot/eddiebot_driver/src</path>
+<path>/opt/ros/fuerte/stacks/robot_model/collada_parser/src</path>
+<path>/opt/ros/fuerte/stacks/robot_model/collada_parser/lib</path>
+<path>/opt/ros/fuerte/stacks/bond_core/smclib/src</path>
+<path>/home/paralax2/github/eddiebot/eddiebot/eddiebot_node/src</path>
+<path>/opt/ros/fuerte/stacks/image_common/camera_calibration_parsers/src</path>
+<path>/opt/ros/fuerte/stacks/image_common/camera_calibration_parsers/lib</path>
+<path>/opt/ros/fuerte/stacks/geometry/tf/src</path>
+<path>/opt/ros/fuerte/stacks/geometry/tf/lib</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet/src</path>
+<path>/opt/ros/fuerte/stacks/nodelet_core/nodelet/lib</path>
+<path>/opt/ros/fuerte/stacks/robot_model/colladadom/lib</path>
+<path>/opt/ros/fuerte/stacks/dynamic_reconfigure/src</path>
+<path>/opt/ros/fuerte/stacks/dynamic_reconfigure/lib</path>
+<path>/opt/ros/fuerte/stacks/robot_model/robot_state_publisher/src</path>
+<path>/opt/ros/fuerte/stacks/robot_model/robot_state_publisher/lib</path>
+<path>/opt/ros/fuerte/stacks/image_common/image_transport/src</path>
+<path>/opt/ros/fuerte/stacks/image_common/image_transport/lib</path>
+<path>/opt/ros/fuerte/stacks/geometry/angles/lib</path>
+<path>/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/src</path>
+<path>/opt/ros/fuerte/stacks/vision_opencv/cv_bridge/lib</path>
+<path>/opt/ros/fuerte/stacks/orocos_kinematics_dynamics/python_orocos_kdl/lib</path>
+<path>/opt/ros/fuerte/stacks/geometry/tf_conversions/src</path>
+<path>/opt/ros/fuerte/stacks/geometry/tf_conversions/lib</path>
+<path>/opt/ros/fuerte/stacks/xacro/src</path>
+<path>/opt/ros/fuerte/stacks/bond_core/bondcpp/src</path>
+<path>/opt/ros/fuerte/stacks/bond_core/bondcpp/lib</path>
+<path>/opt/ros/fuerte/stacks/bullet/src</path>
+<path>/opt/ros/fuerte/stacks/bullet/lib</path>
+<path>/opt/ros/fuerte/stacks/pluginlib/src</path>
+<path>/opt/ros/fuerte/stacks/pluginlib/lib</path>
+<path>/home/paralax2/github/eddiebot/eddiebot/eddiebot_description/lib</path>
+<path>/home/paralax2/fuerte_workspace/sandbox/openni_camera/src</path>
+<path>/home/paralax2/fuerte_workspace/sandbox/openni_camera/lib</path>
+<path>/opt/ros/fuerte/stacks/image_common/camera_info_manager/src</path>
+<path>/opt/ros/fuerte/stacks/image_common/camera_info_manager/lib</path>
+<path>/opt/ros/fuerte/stacks/robot_model/kdl_parser/src</path>
+<path>/opt/ros/fuerte/stacks/robot_model/kdl_parser/lib</path>
+<path>/opt/ros/fuerte/stacks/image_transport_plugins/compressed_image_transport/src</path>
+<path>/opt/ros/fuerte/stacks/image_transport_plugins/compressed_image_transport/lib</path>
+<path>/opt/ros/fuerte/stacks/robot_model/urdf_parser/src</path>
+<path>/opt/ros/fuerte/stacks/robot_model/urdf_parser/lib</path>
+<path>/opt/ros/fuerte/stacks/orocos_kinematics_dynamics/orocos_kdl/src</path>
+<path>/opt/ros/fuerte/stacks/bond_core/bond/src</path>
+<path>/opt/ros/fuerte/share/ros/core/mk</path>
+<path>/opt/ros/fuerte/lib/python2.7/dist-packages</path>
+<path>/home/paralax2/github/eddiebot/eddiebot/eddiebot_bringup</path>
+<path>/usr/lib/python2.7</path>
+<path>/usr/lib/python2.7/plat-linux2</path>
+<path>/usr/lib/python2.7/lib-tk</path>
+<path>/usr/lib/python2.7/lib-dynload</path>
+<path>/usr/local/lib/python2.7/dist-packages</path>
+<path>/usr/lib/python2.7/dist-packages</path>
+<path>/usr/lib/python2.7/dist-packages/PIL</path>
+<path>/usr/lib/python2.7/dist-packages/gst-0.10</path>
+<path>/usr/lib/python2.7/dist-packages/gtk-2.0</path>
+<path>/usr/lib/pymodules/python2.7</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntu-sso-client</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-client</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-control-panel</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-couch</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-installer</path>
+<path>/usr/lib/python2.7/dist-packages/ubuntuone-storage-protocol</path>
+<path>/usr/lib/python2.7/dist-packages/wx-2.8-gtk2-unicode</path>
 </pydev_pathproperty>
 </pydev_project>

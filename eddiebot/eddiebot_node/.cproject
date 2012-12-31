@@ -234,7 +234,7 @@
 <pathentry kind="mac" name="__GXX_RTTI" path="" value="1"/>
 <pathentry kind="mac" name="__EXCEPTIONS" path="" value="1"/>
 <pathentry kind="mac" name="_GNU_SOURCE" path="" value="1"/>
-<pathentry include="/home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/paralax2/github/eddiebot/eddiebot/eddiebot_node/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/geometry/tf/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/geometry/tf/msg_gen/cpp/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/geometry/tf/srv_gen/cpp/include" kind="inc" path="" system="true"/>
@@ -248,9 +248,9 @@
 <pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/srv/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/msg_gen/cpp/include" kind="inc" path="" system="true"/>
 <pathentry include="/opt/ros/fuerte/stacks/dynamic_reconfigure/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/msg_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/srv_gen/cpp/include" kind="inc" path="" system="true"/>
-<pathentry include="/home/paralax2/fuerte_workspace/sandbox/eddiebot/eddiebot_node/cfg/cpp" kind="inc" path="" system="true"/>
+<pathentry include="/home/paralax2/github/eddiebot/eddiebot/eddiebot_node/msg_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/paralax2/github/eddiebot/eddiebot/eddiebot_node/srv_gen/cpp/include" kind="inc" path="" system="true"/>
+<pathentry include="/home/paralax2/github/eddiebot/eddiebot/eddiebot_node/cfg/cpp" kind="inc" path="" system="true"/>
 <pathentry include="/usr/lib/gcc/i686-linux-gnu/4.6/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/local/include" kind="inc" path="" system="true"/>
 <pathentry include="/usr/lib/gcc/i686-linux-gnu/4.6/include-fixed" kind="inc" path="" system="true"/>

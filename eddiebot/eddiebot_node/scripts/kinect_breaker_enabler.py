@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Software License Agreement (BSD License)
-#
+# Copyright (c) 2010, Willow Garage Inc. 
 # Copyright (c) 2012, Tang Tiong Yew
 # All rights reserved.
 #

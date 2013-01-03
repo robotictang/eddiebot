@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 # The BSD License
-#
-# Copyright (c) 2007 Tang Tiong Yew 
+# Copyright (c) 2010, Willow Garage Inc.
+# Copyright (c) 2012 Tang Tiong Yew 
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal

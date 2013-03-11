@@ -240,10 +240,10 @@ class EddiebotNode(object):
         if self.max_abs_yaw_vel is not None and self.max_abs_yaw_vel > 0.0 and msg.angular.z != 0.0 and abs(msg.angular.z) > self.max_abs_yaw_vel: 
             msg.angular.z = self.max_abs_yaw_vel if msg.angular.z > 0.0 else -self.max_abs_yaw_vel 
         if self.drive_mode == 'twist':
-            print "msg.linear.x " + str(msg.linear.x)
-            print "\nmsg.angular.z " + str(msg.angular.z)
-            print "\nbuf " + str(msg.linear.z)
-            print "\nangle " + str(msg.linear.y)
+#            print "msg.linear.x " + str(msg.linear.x)
+#            print "\nmsg.angular.z " + str(msg.angular.z)
+#            print "\nbuf " + str(msg.linear.z)
+#            print "\nangle " + str(msg.linear.y)
             # convert twist to direct_drive args
             ts  = msg.linear.x * 1000 # m -> mm
             tw  = msg.angular.z  * (robot_types.ROBOT_TYPES[self.robot_type].wheel_separation / 2) * 1000 
@@ -412,7 +412,7 @@ class EddiebotNode(object):
 #                break
 
             # PUBLISH STATE
-#            self.sensor_state_pub.publish(s)
+            self.sensor_state_pub.publish(s)
 #            self.odom_pub.publish(odom)
 #            if self.publish_tf:
 #                self.publish_odometry_transform(odom)
@@ -461,13 +461,13 @@ class EddiebotNode(object):
         # are activated.
         # TODO: check bumps_wheeldrops flags more thoroughly, and disable
         # all motion (not just forward motion) when wheeldrops are activated
-#        forward = (cmd_vel[0] + cmd_vel[1]) > 0
-#        if self.stop_motors_on_bump and s.bumps_wheeldrops and forward:
-#            print "Bump-------------------------!!!"
-#            return (0,0)
-#        else:
-#            return cmd_vel
-        return cmd_vel
+        #forward = (cmd_vel[0] + cmd_vel[1]) > 0
+        if self.stop_motors_on_bump and s.bumps_wheeldrops:# and forward:
+            #return (0,0)
+            return cmd_vel
+        else:
+            return cmd_vel
+#        return cmd_vel
 
     def compute_odom(self, sensor_state, last_time, odom):
         """

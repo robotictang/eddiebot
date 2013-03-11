@@ -1,13 +1,3 @@
 apps:
- - display: Android Teleop
-   app: eddiebot_teleop/android_teleop
- - display: PS3 Joystick
-   app: eddiebot_teleop/ps3_teleop
  - display: Follower
    app: eddiebot_follower/follower
- - display: Chirp
-   app: eddiebot_sounds/chirp
- - display: Make a Map
-   app: eddiebot_teleop/android_make_a_map
- - display: Map Nav
-   app: eddiebot_teleop/android_map_nav

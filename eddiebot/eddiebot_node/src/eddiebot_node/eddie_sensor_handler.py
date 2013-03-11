@@ -68,58 +68,58 @@ class EddieSensorHandler(object):
 
   def _deserialize(self, buffer, timestamp):
     try:
-       (bumps_wheeldrops,
-        wall,
-        cliff_left, 
-        cliff_front_left, 
-        cliff_front_right,
-        cliff_right,
-        virtual_wall,
-        motor_overcurrents,
-        dirt_detector_left, 
-        dirt_detector_right,
-        remote_opcode, 
-        buttons,
-        distance, 
-        angle,
-        charging_state,
-        voltage, 
-        current, 
-        temperature, 
-        charge, 
-        capacity,
-        wall_signal, 
-        cliff_left_signal, 
-        cliff_front_left_signal,
-        cliff_front_right_signal,
-        cliff_right_signal,
-        user_digital_inputs, 
-        user_analog_input,
-        charging_sources_available,
-        oi_mode,
-        song_number, 
-        song_playing,
-        number_of_stream_packets,
-        requested_velocity, 
-        requested_radius,
-        requested_right_velocity, 
-        requested_left_velocity,
-        encoder_counts_left, 
-        encoder_counts_right,
-        light_bumper,
-        light_bump_left, 
-        light_bump_front_left, 
-        light_bump_center_left,
-        light_bump_center_right, 
-        light_bump_front_right, 
-        light_bump_right,
-        ir_opcode_left, 
-        ir_opcode_right,
-        left_motor_current, 
-        right_motor_current,
-        main_brish_current, 
-        side_brush_current,
-        statis ) = (buffer[0],
+       (bumps_wheeldrops,#1
+        wall,#2
+        cliff_left, #3
+        cliff_front_left, #4
+        cliff_front_right,#5
+        cliff_right,#6
+        virtual_wall,#7
+        motor_overcurrents,#8
+        dirt_detector_left, #9
+        dirt_detector_right,#10
+        remote_opcode, #11
+        buttons,#12
+        distance, #13
+        angle,#14
+        charging_state, #15
+        voltage, #16
+        current, #17
+        temperature,#18 
+        charge, #19
+        capacity,#20
+        wall_signal,#21 
+        cliff_left_signal,#22 
+        cliff_front_left_signal,#23
+        cliff_front_right_signal,#24
+        cliff_right_signal,#25
+        user_digital_inputs, #26
+        user_analog_input, #27
+        charging_sources_available, #28
+        oi_mode, #29
+        song_number, #30 
+        song_playing, #31
+        number_of_stream_packets, #32
+        requested_velocity, #33
+        requested_radius, #34
+        requested_right_velocity, #35 
+        requested_left_velocity, #36
+        encoder_counts_left, #37
+        encoder_counts_right, #38
+        light_bumper, #39
+        light_bump_left, #40
+        light_bump_front_left, #41 
+        light_bump_center_left, #42
+        light_bump_center_right, #43
+        light_bump_front_right, #44
+        light_bump_right, #45
+        ir_opcode_left,  #46
+        ir_opcode_right, #47
+        left_motor_current, #48
+        right_motor_current, #49
+        main_brish_current,  #50
+        side_brush_current, #51
+        statis ) = (buffer[0], #52
                     buffer[1],
                     buffer[2],
                     buffer[3],

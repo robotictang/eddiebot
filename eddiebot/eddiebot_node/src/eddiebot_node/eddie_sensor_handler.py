@@ -34,6 +34,7 @@ import struct
 import logging
 import time
 import math
+import roslib
 
 import rospy
 import eddiebot_driver

@@ -622,13 +622,13 @@ class Eddiebot():
 #    print "Bumps!!!!!!!!!:"
 #    print ping_left_bumps_f or ping_right_bumps_f or adc_left_bumps_f or adc_right_bumps_f or adc_center_bumps_f or ping_left_bumps_r or ping_right_bumps_r or adc_left_bumps_r or adc_right_bumps_r or adc_center_bumps_r 
 #    
-    return (0,#ping_left_bumps_f or ping_right_bumps_f or adc_left_bumps_f or adc_right_bumps_f or adc_center_bumps_f or ping_left_bumps_r or ping_right_bumps_r or adc_left_bumps_r or adc_right_bumps_r or adc_center_bumps_r ,#1
+    return (0,#1
             adc_center_bumps_f,#2 wall
             adc_left_bumps_r,#3 cliff_left
             adc_left_bumps_f,#4 cliff_front_left
             adc_right_bumps_f,#5 cliff_front_right
             adc_right_bumps_r,#6 cliff_right
-            0,#7
+            ping_left_bumps_f or ping_right_bumps_f or adc_left_bumps_f or adc_right_bumps_f or adc_center_bumps_f or ping_left_bumps_r or ping_right_bumps_r or adc_left_bumps_r or adc_right_bumps_r or adc_center_bumps_r,#7
             0,#8
             0,#9
             0,#10

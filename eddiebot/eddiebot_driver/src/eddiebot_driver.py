@@ -622,7 +622,7 @@ class Eddiebot():
 #    print "Bumps!!!!!!!!!:"
 #    print ping_left_bumps_f or ping_right_bumps_f or adc_left_bumps_f or adc_right_bumps_f or adc_center_bumps_f or ping_left_bumps_r or ping_right_bumps_r or adc_left_bumps_r or adc_right_bumps_r or adc_center_bumps_r 
 #    
-    return (ping_left_bumps_f or ping_right_bumps_f or adc_left_bumps_f or adc_right_bumps_f or adc_center_bumps_f or ping_left_bumps_r or ping_right_bumps_r or adc_left_bumps_r or adc_right_bumps_r or adc_center_bumps_r ,#1
+    return (0,#ping_left_bumps_f or ping_right_bumps_f or adc_left_bumps_f or adc_right_bumps_f or adc_center_bumps_f or ping_left_bumps_r or ping_right_bumps_r or adc_left_bumps_r or adc_right_bumps_r or adc_center_bumps_r ,#1
             adc_center_bumps_f,#2 wall
             adc_left_bumps_r,#3 cliff_left
             adc_left_bumps_f,#4 cliff_front_left
@@ -642,22 +642,22 @@ class Eddiebot():
             0,#18
             0,#19
             0,#20 adc_battery,
-            0,#21
-            0,#22
-            0,#23
-            0,#24
-            0,#25
+            adc_center_f,#21
+            adc_left_r,#22
+            adc_left_f,#23
+            adc_right_f,#24
+            adc_right_r,#25
             0,#26
-            0,#27
+            adc_center_r,#27
             0,#28
             0,#29
             0,#30
             0,#31
             0,#32
-            0,#33
-            0,#34
-            0,#35
-            0,#36
+            ping_left_f,#33
+            ping_right_f,#34
+            ping_left_r,#35
+            ping_right_r,#36
             0,#37
             0,#38
             0,#39 light_bumper
